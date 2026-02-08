@@ -39,23 +39,23 @@ sudo python3 scapy_analyzer.py --capture --timeout 60 --output traffic.pcap
 и ответы, содержащие данные, передаваемые между клиентом
 и сервером Google Gruyere.
 
-Пример перехваченного HTTP-запроса (первые 300 символов):
-
+**Пример перехваченного HTTP-запроса (первые 300 символов):**
+```
 GET /<ID>/feed.gtl?uid=%3Cscript%3Ealert(XSS)%3C/script%3E HTTP/1.1
 Host: google-gruyere.appspot.com
 User-Agent: curl
 Accept: */*
-
-Пример HTTP-ответа сервера:
-
+```
+**Пример HTTP-ответа сервера:**
+```
 HTTP/1.1 200 OK
 content-type: text/html
 cache-control: no-cache
-
-Также в теле ответа присутствует отражённый XSS-пэйлоад:
-
+```
+**Также в теле ответа присутствует отражённый XSS-пэйлоад:**
+```
 "<script>alert(XSS)</script>"
-
+```
 Всплывающее окно используется как наглядный индикатор
 успешного выполнения внедрённого JavaScript-кода.
 
