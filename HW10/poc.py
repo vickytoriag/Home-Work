@@ -18,6 +18,6 @@ url = f"http://google-gruyere.appspot.com/{GRUYERE_ID}/feed.gtl?uid={quote(paylo
 r = requests.get(url)
 
 if payload in r.text:
-    print("[+] XSS подтверждена: ввод отражается без фильтрации")
+    print("[+] Потенциальная уязвимость обнаружена")
 else:
     print("[-] XSS не обнаружена")
