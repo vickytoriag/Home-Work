@@ -1,0 +1,33 @@
+Forensic report (network pcap)
+Source file: dns.cap
+
+DNS records found: 38
+
+Top domains:
+- google.com: 6
+- www.netbsd.org: 6
+- GRIMM.utelsystems.local: 4
+- 104.9.192.66.in-addr.arpa: 2
+- www.l.google.com: 2
+- www.google.com: 2
+- www.example.com: 2
+- www.example.notginh: 2
+- 1.0.0.127.in-addr.arpa: 2
+- www.isc.org: 2
+
+Top src IP:
+- 192.168.170.8: 14
+- 192.168.170.20: 14
+- 192.168.170.56: 5
+- 217.13.4.24: 5
+
+Top dst IP:
+- 192.168.170.20: 14
+- 192.168.170.8: 14
+- 217.13.4.24: 5
+- 192.168.170.56: 5
+
+Saved artifacts:
+- analysis_results/dns_requests.csv
+- analysis_results/top_domains.png
+- analysis_results/dns_timeline.png
