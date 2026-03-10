@@ -1,0 +1,2 @@
+ip,events,top_signature,is_threat
+8.42.77.171,7,ET SCAN Potential SSH Scan,True

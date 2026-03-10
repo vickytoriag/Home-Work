@@ -1,0 +1,234 @@
+{
+  "summary": {
+    "checked_ips": 1,
+    "threats_found": 1,
+    "critical_vulnerabilities_found": 35
+  },
+  "top_attack_signatures": {
+    "ET DROP Dshield Block Listed Source group 1": 2,
+    "ET SCAN Potential VNC Scan 5800-5820": 1,
+    "ET SCAN Potential SSH Scan": 1,
+    "ET SCAN Sipvicious Scan": 1,
+    "ET SCAN Suspicious inbound to MSSQL port 1433": 1
+  },
+  "critical_vulnerabilities": [
+    {
+      "keyword": "ssh",
+      "id": "CVE-1999-0013",
+      "cvss": 8.4,
+      "title": "CVE-1999-0013"
+    },
+    {
+      "keyword": "ssh",
+      "id": "CVE-2001-1473",
+      "cvss": 7.5,
+      "title": "CVE-2001-1473"
+    },
+    {
+      "keyword": "ssh",
+      "id": "CVE-2001-1476",
+      "cvss": 7.5,
+      "title": "CVE-2001-1476"
+    },
+    {
+      "keyword": "ssh",
+      "id": "CVE-2001-1475",
+      "cvss": 7.5,
+      "title": "CVE-2001-1475"
+    },
+    {
+      "keyword": "ssh",
+      "id": "CVE-2012-5975",
+      "cvss": 9.3,
+      "title": "CVE-2012-5975"
+    },
+    {
+      "keyword": "vnc",
+      "id": "VERACODE:23806",
+      "cvss": 10.0,
+      "title": "Arbitrary Code Execution"
+    },
+    {
+      "keyword": "vnc",
+      "id": "PRION:CVE-2017-5885",
+      "cvss": 7.5,
+      "title": "Integer overflow"
+    },
+    {
+      "keyword": "vnc",
+      "id": "CVE-2017-1000044",
+      "cvss": 9.8,
+      "title": "CVE-2017-1000044"
+    },
+    {
+      "keyword": "vnc",
+      "id": "CVE-2006-2369",
+      "cvss": 7.5,
+      "title": "CVE-2006-2369"
+    },
+    {
+      "keyword": "vnc",
+      "id": "PRION:CVE-2017-1000044",
+      "cvss": 7.5,
+      "title": "Memory corruption"
+    },
+    {
+      "keyword": "mssql",
+      "id": "VERACODE:154368",
+      "cvss": 8.1,
+      "title": "Spoofing"
+    },
+    {
+      "keyword": "mssql",
+      "id": "CVE-2017-16059",
+      "cvss": 7.5,
+      "title": "CVE-2017-16059"
+    },
+    {
+      "keyword": "mssql",
+      "id": "GHSA-VMQV-47J8-GWV8",
+      "cvss": 8.8,
+      "title": "Remote Code Execution Vulnerability in Microsoft Django Backend for SQL Server"
+    },
+    {
+      "keyword": "mssql",
+      "id": "GHSA-3P8F-J2VW-7HW9",
+      "cvss": 7.5,
+      "title": "mssql-node is malware"
+    },
+    {
+      "keyword": "mssql",
+      "id": "VERACODE:6598",
+      "cvss": 7.5,
+      "title": "Malicious Typo-Squatting"
+    },
+    {
+      "keyword": "oracle",
+      "id": "MSF:EXPLOIT-WINDOWS-ORACLE-OSB_NDMP_AUTH-",
+      "cvss": 10.0,
+      "title": "Oracle Secure Backup NDMP_CONNECT_CLIENT_AUTH Buffer Overflow"
+    },
+    {
+      "keyword": "oracle",
+      "id": "MSF:AUXILIARY-SCANNER-ORACLE-ORACLE_LOGIN-",
+      "cvss": 7.5,
+      "title": "Oracle RDBMS Login Utility"
+    },
+    {
+      "keyword": "oracle",
+      "id": "MSF:EXPLOIT-WINDOWS-ORACLE-TNS_AUTH_SESSKEY-",
+      "cvss": 10.0,
+      "title": "Oracle 10gR2 TNS Listener AUTH_SESSKEY Buffer Overflow"
+    },
+    {
+      "keyword": "mysql",
+      "id": "REDHAT_UNPATCHED_MYSQL55-MYSQL-RHEL5.NASL",
+      "cvss": 7.5,
+      "title": "RHEL 5 : mysql55-mysql (Unpatched Vulnerability)"
+    },
+    {
+      "keyword": "mysql",
+      "id": "REDHAT_UNPATCHED_MYSQL55-MYSQL-RHEL6.NASL",
+      "cvss": 7.5,
+      "title": "RHEL 6 : mysql55-mysql (Unpatched Vulnerability)"
+    },
+    {
+      "keyword": "mysql",
+      "id": "MSF:EXPLOIT-WINDOWS-MYSQL-MYSQL_YASSL_HELLO-",
+      "cvss": 7.5,
+      "title": "MySQL yaSSL SSL Hello Message Buffer Overflow"
+    },
+    {
+      "keyword": "postgresql",
+      "id": "SNYK:UNMANAGED-POSTGRESQL-12978221",
+      "cvss": 8.8,
+      "title": "CRLF Injection"
+    },
+    {
+      "keyword": "snmp",
+      "id": "VERACODE:23585",
+      "cvss": 10.0,
+      "title": "Authentication Bypass"
+    },
+    {
+      "keyword": "snmp",
+      "id": "VERACODE:22879",
+      "cvss": 7.5,
+      "title": "Denial Of Service (DoS)"
+    },
+    {
+      "keyword": "snmp",
+      "id": "VERACODE:36469",
+      "cvss": 8.8,
+      "title": "NULL Pointer Dereference"
+    },
+    {
+      "keyword": "sip",
+      "id": "VERACODE:39905",
+      "cvss": 7.5,
+      "title": "Out Of Bounds Read"
+    },
+    {
+      "keyword": "sip",
+      "id": "UB:CVE-2021-33056",
+      "cvss": 7.5,
+      "title": "CVE-2021-33056"
+    },
+    {
+      "keyword": "sip",
+      "id": "DEBIANCVE:CVE-2022-31002",
+      "cvss": 7.5,
+      "title": "CVE-2022-31002"
+    },
+    {
+      "keyword": "sip",
+      "id": "UB:CVE-2022-31001",
+      "cvss": 7.5,
+      "title": "CVE-2022-31001"
+    },
+    {
+      "keyword": "sip",
+      "id": "VERACODE:39902",
+      "cvss": 7.5,
+      "title": "Denial Of Service (DoS)"
+    },
+    {
+      "keyword": "sip",
+      "id": "VERACODE:39870",
+      "cvss": 9.8,
+      "title": "Out Of Bounds Write"
+    },
+    {
+      "keyword": "sip",
+      "id": "VERACODE:39901",
+      "cvss": 9.8,
+      "title": "Remote Code Execution (RCE)"
+    },
+    {
+      "keyword": "sip",
+      "id": "DEBIAN:DLA-3441-1:74714",
+      "cvss": 7.5,
+      "title": "[SECURITY] [DLA 3441-1] sofia-sip security update"
+    },
+    {
+      "keyword": "sip",
+      "id": "DEBIAN:DLA-3292-1:247AE",
+      "cvss": 9.8,
+      "title": "[SECURITY] [DLA 3292-1] sofia-sip security update"
+    },
+    {
+      "keyword": "sip",
+      "id": "DEBIAN:DSA-5431-1:29ED6",
+      "cvss": 7.5,
+      "title": "[SECURITY] [DSA 5431-1] sofia-sip security update"
+    }
+  ],
+  "ip_results": [
+    {
+      "ip": "8.42.77.171",
+      "events": 7,
+      "top_signature": "ET SCAN Potential SSH Scan",
+      "is_threat": true
+    }
+  ]
+}
