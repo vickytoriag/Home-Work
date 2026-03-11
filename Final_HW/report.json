@@ -2,7 +2,7 @@
   "summary": {
     "checked_ips": 1,
     "threats_found": 1,
-    "critical_vulnerabilities_found": 35
+    "critical_vulnerabilities_found": 33
   },
   "top_attack_signatures": {
     "ET DROP Dshield Block Listed Source group 1": 2,
@@ -35,12 +35,6 @@
       "id": "CVE-2001-1475",
       "cvss": 7.5,
       "title": "CVE-2001-1475"
-    },
-    {
-      "keyword": "ssh",
-      "id": "CVE-2012-5975",
-      "cvss": 9.3,
-      "title": "CVE-2012-5975"
     },
     {
       "keyword": "vnc",
@@ -122,27 +116,21 @@
     },
     {
       "keyword": "mysql",
-      "id": "REDHAT_UNPATCHED_MYSQL55-MYSQL-RHEL5.NASL",
-      "cvss": 7.5,
-      "title": "RHEL 5 : mysql55-mysql (Unpatched Vulnerability)"
-    },
-    {
-      "keyword": "mysql",
       "id": "REDHAT_UNPATCHED_MYSQL55-MYSQL-RHEL6.NASL",
       "cvss": 7.5,
       "title": "RHEL 6 : mysql55-mysql (Unpatched Vulnerability)"
     },
     {
       "keyword": "mysql",
+      "id": "REDHAT_UNPATCHED_MYSQL55-MYSQL-RHEL5.NASL",
+      "cvss": 7.5,
+      "title": "RHEL 5 : mysql55-mysql (Unpatched Vulnerability)"
+    },
+    {
+      "keyword": "mysql",
       "id": "MSF:EXPLOIT-WINDOWS-MYSQL-MYSQL_YASSL_HELLO-",
       "cvss": 7.5,
       "title": "MySQL yaSSL SSL Hello Message Buffer Overflow"
-    },
-    {
-      "keyword": "postgresql",
-      "id": "SNYK:UNMANAGED-POSTGRESQL-12978221",
-      "cvss": 8.8,
-      "title": "CRLF Injection"
     },
     {
       "keyword": "snmp",
@@ -164,12 +152,6 @@
     },
     {
       "keyword": "sip",
-      "id": "VERACODE:39905",
-      "cvss": 7.5,
-      "title": "Out Of Bounds Read"
-    },
-    {
-      "keyword": "sip",
       "id": "UB:CVE-2021-33056",
       "cvss": 7.5,
       "title": "CVE-2021-33056"
@@ -179,6 +161,12 @@
       "id": "DEBIANCVE:CVE-2022-31002",
       "cvss": 7.5,
       "title": "CVE-2022-31002"
+    },
+    {
+      "keyword": "sip",
+      "id": "VERACODE:39905",
+      "cvss": 7.5,
+      "title": "Out Of Bounds Read"
     },
     {
       "keyword": "sip",
@@ -212,15 +200,15 @@
     },
     {
       "keyword": "sip",
-      "id": "DEBIAN:DLA-3292-1:247AE",
-      "cvss": 9.8,
-      "title": "[SECURITY] [DLA 3292-1] sofia-sip security update"
-    },
-    {
-      "keyword": "sip",
       "id": "DEBIAN:DSA-5431-1:29ED6",
       "cvss": 7.5,
       "title": "[SECURITY] [DSA 5431-1] sofia-sip security update"
+    },
+    {
+      "keyword": "sip",
+      "id": "DEBIAN:DSA-5410-1:34659",
+      "cvss": 9.8,
+      "title": "[SECURITY] [DSA 5410-1] sofia-sip"
     }
   ],
   "ip_results": [
